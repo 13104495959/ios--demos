@@ -1,0 +1,20 @@
+PODS:
+  - AWSCore (2.6.21)
+  - AWSPolly (2.6.21):
+    - AWSCore (= 2.6.21)
+
+DEPENDENCIES:
+  - AWSPolly (~> 2.6.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AWSCore
+    - AWSPolly
+
+SPEC CHECKSUMS:
+  AWSCore: a1ff1d32ea7af235fe64be301c204b34cb1f9f83
+  AWSPolly: 75d371519f8b6c71f52f3dea29fc76a4fbd78efb
+
+PODFILE CHECKSUM: 0eefba9f32f41aadc5aad2b6792d1f4e0f384aa8
+
+COCOAPODS: 1.5.3
