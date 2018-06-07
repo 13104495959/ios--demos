@@ -286,6 +286,7 @@ class ViewController: UIViewController, UITextViewDelegate, UIPickerViewDelegate
 		let builder = AWSPollySynthesizeSpeechURLBuilder.default().getPreSignedURL(input)
 
 		// Request the URL for synthesis result
+        // 合成声音并返回URL
 		builder.continueOnSuccessWith { (awsTask: AWSTask<NSURL>) -> Any? in
 			// The result of getPresignedURL task is NSURL.
 			// Again, we ignore the errors in the example.
